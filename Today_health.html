@@ -31,17 +31,21 @@ text-align:right;
 }
 h1{
   text-align: center;
-  color:white;
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+  padding-bottom: 15px;
 }
 .phonenumber{
   color:white;
-  border: 1px solid rgba(1,50,82,255);
+  border-top: 1px solid gray;
   height: 150px;
   width: 100%;
   position: fixed;
   bottom:0;
   margin: 0px;
-  background-color: rgba(1,50,82,255)
+  background-color: white;
+}
+h4{
+  text-align: right;
 }
 * {margin:0;padding:0;}
 .section input[id*="slide"] {display:none;}
@@ -79,20 +83,13 @@ h1{
   text-align: center;
 }
 </style>
+</head>
     <body>
-        <input type ="checkbox" id="menuicon">
-          <label for="menuicon">
-            <span id="next"><img src ="information.png" width="10%"></span>
-          </label>
-            <div class ="sidebar">
-              <h1>화살표를 눌러 슬라이드를 옆으로 넘길 수 있습니다.<br>
-
-              </h1>
-            </div>
-      </div>
-  </head>
+      <h1>
+        <a href="opening.html"><img src="home.png" style="padding-top:0px;" width="20%"></a>
+      </h1>
   <body>
-  	<div id="health"><img src="./img/건강_걸음수.png" width="60%"></div>
+  	<div id="health"><img src="./img/건강_걸음수.png" width="60%" style="padding-top:50px;"></div>
 
   <div class="section">
   	<input type="radio" name="slide" id="slide01" checked>
@@ -107,7 +104,7 @@ h1{
   						<h3></h3>
   						<p></p>
   					</div>
-  					<img src="./img/건강걸음지수-23.png">
+  					<a href="https://open.kakao.com/o/gRMebRfd"><img src="./img/건강걸음지수-23.png"></a>
   				</a>
   			</li>
   			<li class="slideitem">
@@ -154,7 +151,13 @@ h1{
   		</ul>
   	</div>
   </div>
-
+  <footer>
+        <div class = "phonenumber">
+          <h4>
+            <a href="alone.html"><img src="뒤로가기.png" style="padding-top:0px; padding-right:50px;"></a>
+          </h4>
+          </div>
+        </footer>
 
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">
@@ -171,5 +174,4 @@ h1{
   <!--End of Tawk.to Script-->
 
   </body>
-</head>
 </html>
